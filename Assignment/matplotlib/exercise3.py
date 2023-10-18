@@ -1,9 +1,8 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
-# 이거 좀 수정
 
 data = np.random.randn(200, 5)
-plt.boxplot(data)
+plt.boxplot(data, notch=True)
 plt.title("box plot")
 plt.show()

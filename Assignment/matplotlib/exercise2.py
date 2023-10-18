@@ -11,6 +11,6 @@ area = np.pi * (
     15 * np.random.rand(N))**2.4
 plt.scatter(x, y,
             s=area, c=colors,
-            alpha=0.7)
+            alpha=0.7, marker="*")
 
 plt.show()
